@@ -33,7 +33,7 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
     
     int result = ternarySearchRecursive(arr, 0, n - 1, target);
-    cout << "Iterative Ternary Search: Found at index " << result << endl;
+    cout << "By using Iterative Ternary Search The target: "<<target<<"  Found at index " << result << endl;
 
     
     return 0;

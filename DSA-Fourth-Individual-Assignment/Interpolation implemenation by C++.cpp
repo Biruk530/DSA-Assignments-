@@ -28,7 +28,7 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
     
     int result = interpolationSearchRecursive(arr, 0, n - 1, target);
-    cout << "Recursive Interpolation Search: Found at index " << result << endl;
+    cout << "By using Recursive Interpolation Search The Target: "<<target<<" Found at index " << result << endl;
     
     return 0;
 }
