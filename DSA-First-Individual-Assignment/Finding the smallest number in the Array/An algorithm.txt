@@ -1,0 +1,26 @@
+Algorithm to Find the Smallest Number in a List/Array
+
+**Input**: 
+- A list or array of numbers `arr` with length `n`
+
+**Output**: 
+- The smallest number in the list `arr`
+
+**Steps**:
+1. **Initialize** a variable `min_num` with the first element of the list:
+2. **Loop** through each element in the list starting from the second element:
+3. **Compare** the current element `arr[i]` with `min_num`:
+4. **Update** `min_num` if the current element is smaller:
+5. **Return** `min_num` after the loop completes:
+
+**Pseudocode**
+
+FindSmallestNumber(list):    
+smallest = list[0]  # Assuming the first number is the smallest;
+   for each number in list;       
+ if number < smallest;       
+      smallest = number;
+    return smallest;
+
+This algorithm efficiently finds the smallest number in a list by iterating
+through each element and keeping track of the minimum value encountered.
