@@ -1,3 +1,4 @@
+**Writer**: Biruk530/Biruk Tibebe Solomon
 # DSA Assignments Repository
 
 Welcome to the Data Structures and Algorithms (DSA) Assignments repository! This repository serves as a structured collection of programming assignments, projects, and practice problems related to core concepts in data structures and algorithms.
